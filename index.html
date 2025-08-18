@@ -17,5 +17,24 @@
         <a href="https://github.com/maatbm/QR_Gen" class="freeAnchor">Free and open source</a>
       </div>
     </header>
+    <main>
+      <div class="mainDiv">
+        <form id="inputUrlForm">
+          <div class="inputUrlDiv">
+            <label>Insert your URL</label>
+            <input
+              type="text"
+              placeholder="Insert here your URL"
+              id="inputUrl"
+              autocomplete="off"
+            />
+          </div>
+          <button type="submit">GENERATE QRCODE</button>
+        </form>
+        <div class="qrDiv" id="qrCodeDiv"></div>
+      </div>
+    </main>
+    <script src="./lib/qrcode.min.js"></script>
+    <script src="./js/genQr.js"></script>
   </body>
 </html>
