@@ -14,3 +14,10 @@
   --quaternary: #413e40;
   --quinary: #121012;
 }
+
+body {
+  width: 100%;
+  min-height: 100%;
+  padding: 2%;
+  background-color: var(--quinary);
+}
