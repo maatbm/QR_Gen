@@ -23,6 +23,7 @@ document.addEventListener("DOMContentLoaded", () => {
       };
       let qrcode = new QRCode(qrCodeDiv, options);
       qrCodeDiv.style.display = "flex";
+      document.getElementById("downloadButton").style.display = "block";
     } catch (err) {
       alert("An unexpect error ocurred");
       console.error(err);
