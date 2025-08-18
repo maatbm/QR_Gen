@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&display=swap");
 
 * {
   padding: 0;
@@ -20,4 +21,40 @@ body {
   min-height: 100%;
   padding: 2%;
   background-color: var(--quinary);
+}
+
+header {
+  width: 100%;
+  background-color: var(--quaternary);
+  border: solid 3px var(--primary);
+  border-radius: 10px;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 0 30px var(--terciary);
+}
+
+.headerContainer {
+  display: flex;
+  align-items: center;
+}
+
+.headerLogo {
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+  border: solid 1px var(--quinary);
+}
+
+.headerTitle {
+  margin-left: 10px;
+  font-size: 50px;
+  font-family: "Audiowide", sans-serif;
+  color: var(--terciary);
+}
+
+.freeAnchor {
+  font-size: large;
+  color: var(--terciary);
 }
